@@ -1,0 +1,4 @@
+tests/resources
+jquery*.js
+*tmp*.*
+*tmp*/
