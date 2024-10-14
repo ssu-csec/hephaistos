@@ -1,0 +1,14 @@
+cmake
+git
+ninja-build
+libicu-dev
+python3
+python
+zip 
+libreadline-dev
+curl
+build-essential
+wget
+lsb-release
+software-properties-common
+gnupg
