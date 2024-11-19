@@ -29,6 +29,9 @@ add_hermes_library(hermesOptimizer
   Optimizer/Scalar/InstructionEscapeAnalysis.cpp
   Optimizer/Scalar/TDZDedup.cpp
   Optimizer/Scalar/TaintAnalysis.cpp
+  Optimizer/Classification/dynamic_static_categorization.cpp
+  Optimizer/Classification/tracker_detection.cpp
+  Optimizer/Classification/tracking_technique.cpp
   IR/Analysis.cpp
   IR/IREval.cpp
 )

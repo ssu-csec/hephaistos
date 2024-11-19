@@ -12,3 +12,4 @@ wget
 lsb-release
 software-properties-common
 gnupg
+nlohmann-json3-dev
