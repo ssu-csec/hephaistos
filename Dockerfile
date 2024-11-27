@@ -12,6 +12,7 @@ COPY scripts/os_install_packages/ubuntu2004/installed_packages.txt /tmp/installe
 COPY CustomHermes /tmp/hephaistos/CustomHermes
 COPY CustomRestringer /tmp/hephaistos/CustomRestringer
 COPY node_modules /tmp/hephaistos/node_modules
+COPY legacy /tmp/hephaistos/legacy
 COPY Hephaistos.js /tmp/hephaistos/Hephaistos.js
 COPY package-lock.json /tmp/hephaistos/package-lock.json
 COPY package.json /tmp/hephaistos/package.json
