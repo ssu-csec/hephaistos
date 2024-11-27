@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhermesInstrumentation.a CMakeFiles/hermesInstrumentation.dir/PerfEventsLinux.cpp.o CMakeFiles/hermesInstrumentation.dir/ProcessStats.cpp.o CMakeFiles/hermesInstrumentation.dir/StatSamplingThread.cpp.o
+/usr/bin/ranlib libhermesInstrumentation.a

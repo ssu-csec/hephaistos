@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhermesADT.a CMakeFiles/hermesADT.dir/CompactArray.cpp.o
+/usr/bin/ranlib libhermesADT.a

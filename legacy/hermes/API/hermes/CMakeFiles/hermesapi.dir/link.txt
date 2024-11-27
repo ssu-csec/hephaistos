@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhermesapi.a CMakeFiles/hermesapi.dir/hermes.cpp.o CMakeFiles/hermesapi.dir/DebuggerAPI.cpp.o
+/usr/bin/ranlib libhermesapi.a

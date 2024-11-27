@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhermesDependencyExtractor.a CMakeFiles/hermesDependencyExtractor.dir/DependencyExtractor.cpp.o
+/usr/bin/ranlib libhermesDependencyExtractor.a

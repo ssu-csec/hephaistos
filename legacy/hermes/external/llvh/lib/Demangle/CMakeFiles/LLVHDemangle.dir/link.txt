@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLLVHDemangle.a CMakeFiles/LLVHDemangle.dir/ItaniumDemangle.cpp.o CMakeFiles/LLVHDemangle.dir/MicrosoftDemangle.cpp.o CMakeFiles/LLVHDemangle.dir/MicrosoftDemangleNodes.cpp.o
+/usr/bin/ranlib libLLVHDemangle.a

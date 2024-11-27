@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhermesParser.a CMakeFiles/hermesParser.dir/JSLexer.cpp.o CMakeFiles/hermesParser.dir/JSONParser.cpp.o CMakeFiles/hermesParser.dir/JSParser.cpp.o CMakeFiles/hermesParser.dir/JSParserImpl.cpp.o CMakeFiles/hermesParser.dir/JSParserImpl-flow.cpp.o CMakeFiles/hermesParser.dir/JSParserImpl-jsx.cpp.o CMakeFiles/hermesParser.dir/JSParserImpl-ts.cpp.o CMakeFiles/hermesParser.dir/FlowHelpers.cpp.o CMakeFiles/hermesParser.dir/rust-api.cpp.o
+/usr/bin/ranlib libhermesParser.a

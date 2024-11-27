@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhermesFlowParser.a CMakeFiles/hermesFlowParser.dir/FlowParser.cpp.o
+/usr/bin/ranlib libhermesFlowParser.a

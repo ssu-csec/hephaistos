@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhermesAST2JS.a CMakeFiles/hermesAST2JS.dir/AST2JS.cpp.o
+/usr/bin/ranlib libhermesAST2JS.a

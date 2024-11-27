@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhermesRegex.a CMakeFiles/hermesRegex.dir/RegexParser.cpp.o CMakeFiles/hermesRegex.dir/RegexSerialization.cpp.o CMakeFiles/hermesRegex.dir/Executor.cpp.o
+/usr/bin/ranlib libhermesRegex.a

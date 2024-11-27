@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhermesPlatformUnicode.a CMakeFiles/hermesPlatformUnicode.dir/PlatformUnicodeJava.cpp.o CMakeFiles/hermesPlatformUnicode.dir/PlatformUnicodeCF.cpp.o CMakeFiles/hermesPlatformUnicode.dir/PlatformUnicodeICU.cpp.o CMakeFiles/hermesPlatformUnicode.dir/PlatformUnicodeLite.cpp.o CMakeFiles/hermesPlatformUnicode.dir/PlatformUnicodeEmscripten.cpp.o CMakeFiles/hermesPlatformUnicode.dir/CharacterProperties.cpp.o
+/usr/bin/ranlib libhermesPlatformUnicode.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhermesCompilerDriver.a CMakeFiles/hermesCompilerDriver.dir/CompilerDriver.cpp.o
+/usr/bin/ranlib libhermesCompilerDriver.a

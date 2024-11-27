@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhermesPublic.a CMakeFiles/hermesPublic.dir/rtti.cpp.o
+/usr/bin/ranlib libhermesPublic.a

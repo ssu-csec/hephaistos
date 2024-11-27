@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhermesBCP47Parser.a CMakeFiles/hermesBCP47Parser.dir/BCP47Parser.cpp.o
+/usr/bin/ranlib libhermesBCP47Parser.a

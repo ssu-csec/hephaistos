@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhermesPlatform.a CMakeFiles/hermesPlatform.dir/Logging.cpp.o
+/usr/bin/ranlib libhermesPlatform.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhermesSourceMap.a CMakeFiles/hermesSourceMap.dir/c-api.cpp.o CMakeFiles/hermesSourceMap.dir/SourceMap.cpp.o CMakeFiles/hermesSourceMap.dir/SourceMapGenerator.cpp.o CMakeFiles/hermesSourceMap.dir/SourceMapParser.cpp.o CMakeFiles/hermesSourceMap.dir/SourceMapTranslator.cpp.o
+/usr/bin/ranlib libhermesSourceMap.a

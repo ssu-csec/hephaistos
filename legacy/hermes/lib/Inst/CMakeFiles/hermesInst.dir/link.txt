@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhermesInst.a CMakeFiles/hermesInst.dir/InstDecode.cpp.o CMakeFiles/hermesInst.dir/InstDecode2.cpp.o
+/usr/bin/ranlib libhermesInst.a

@@ -1,0 +1,2007 @@
+The system is: Linux - 6.2.0-36-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/3.22.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/3.22.1/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_08251/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_08251.dir/build.make CMakeFiles/cmTC_08251.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_08251.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_08251.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_08251.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_08251.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_08251.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccyf09rk.s
+GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/11/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 50eaa2331df977b8016186198deb2d18
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_08251.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_08251.dir/'
+ as -v --64 -o CMakeFiles/cmTC_08251.dir/CMakeCCompilerABI.c.o /tmp/ccyf09rk.s
+GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_08251.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_08251.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_08251
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08251.dir/link.txt --verbose=1
+/usr/bin/cc  -v CMakeFiles/cmTC_08251.dir/CMakeCCompilerABI.c.o -o cmTC_08251 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_08251' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_08251.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIVNU2n.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_08251 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_08251.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_08251' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_08251.'
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_08251/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_08251.dir/build.make CMakeFiles/cmTC_08251.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_08251.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_08251.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_08251.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_08251.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_08251.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccyf09rk.s]
+  ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 50eaa2331df977b8016186198deb2d18]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_08251.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_08251.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_08251.dir/CMakeCCompilerABI.c.o /tmp/ccyf09rk.s]
+  ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_08251.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_08251.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_08251]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08251.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_08251.dir/CMakeCCompilerABI.c.o -o cmTC_08251 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_08251' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_08251.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIVNU2n.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_08251 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_08251.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccIVNU2n.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_08251] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+    arg [CMakeFiles/cmTC_08251.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_41d24/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_41d24.dir/build.make CMakeFiles/cmTC_41d24.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_41d24.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++   -v -o CMakeFiles/cmTC_41d24.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_41d24.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_41d24.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_41d24.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc5raCo3.s
+GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/11
+ /usr/include/x86_64-linux-gnu/c++/11
+ /usr/include/c++/11/backward
+ /usr/lib/gcc/x86_64-linux-gnu/11/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_41d24.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_41d24.dir/'
+ as -v --64 -o CMakeFiles/cmTC_41d24.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc5raCo3.s
+GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_41d24.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_41d24.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_41d24
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41d24.dir/link.txt --verbose=1
+/usr/bin/c++  -v CMakeFiles/cmTC_41d24.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_41d24 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_41d24' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_41d24.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRHAuKS.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_41d24 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_41d24.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_41d24' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_41d24.'
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/11]
+    add: [/usr/include/x86_64-linux-gnu/c++/11]
+    add: [/usr/include/c++/11/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/11] ==> [/usr/include/c++/11]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/11] ==> [/usr/include/x86_64-linux-gnu/c++/11]
+  collapse include dir [/usr/include/c++/11/backward] ==> [/usr/include/c++/11/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/11;/usr/include/x86_64-linux-gnu/c++/11;/usr/include/c++/11/backward;/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_41d24/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_41d24.dir/build.make CMakeFiles/cmTC_41d24.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_41d24.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_41d24.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_41d24.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_41d24.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_41d24.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc5raCo3.s]
+  ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/11]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/11]
+  ignore line: [ /usr/include/c++/11/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_41d24.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_41d24.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_41d24.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc5raCo3.s]
+  ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_41d24.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_41d24.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_41d24]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41d24.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_41d24.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_41d24 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_41d24' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_41d24.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRHAuKS.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_41d24 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_41d24.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccRHAuKS.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_41d24] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+    arg [CMakeFiles/cmTC_41d24.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG succeeded with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_84eda/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_84eda.dir/build.make CMakeFiles/cmTC_84eda.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_84eda.dir/src.cxx.o
+/usr/bin/c++ -DCXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual    -Wmissing-field-initializers -o CMakeFiles/cmTC_84eda.dir/src.cxx.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_84eda
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84eda.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual  CMakeFiles/cmTC_84eda.dir/src.cxx.o -o cmTC_84eda 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test MAYBE_UNINITIALIZED_FLAG succeeded with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_103bf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_103bf.dir/build.make CMakeFiles/cmTC_103bf.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_103bf.dir/src.cxx.o
+/usr/bin/c++ -DMAYBE_UNINITIALIZED_FLAG  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers    -Wmaybe-uninitialized -o CMakeFiles/cmTC_103bf.dir/src.cxx.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_103bf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_103bf.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers  CMakeFiles/cmTC_103bf.dir/src.cxx.o -o cmTC_103bf 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test INIT_LIST_LIFETIME_FLAG succeeded with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8b855/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8b855.dir/build.make CMakeFiles/cmTC_8b855.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8b855.dir/src.cxx.o
+/usr/bin/c++ -DINIT_LIST_LIFETIME_FLAG  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wno-maybe-uninitialized    -Winit-list-lifetime -o CMakeFiles/cmTC_8b855.dir/src.cxx.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8b855
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b855.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wno-maybe-uninitialized  CMakeFiles/cmTC_8b855.dir/src.cxx.o -o cmTC_8b855 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test REDUNDANT_MOVE_FLAG succeeded with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e58ac/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e58ac.dir/build.make CMakeFiles/cmTC_e58ac.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e58ac.dir/src.cxx.o
+/usr/bin/c++ -DREDUNDANT_MOVE_FLAG  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wno-maybe-uninitialized -Wno-init-list-lifetime    -Wredundant-move -o CMakeFiles/cmTC_e58ac.dir/src.cxx.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e58ac
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e58ac.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wno-maybe-uninitialized -Wno-init-list-lifetime  CMakeFiles/cmTC_e58ac.dir/src.cxx.o -o cmTC_e58ac 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test DEPRECATED_COPY_FLAG succeeded with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9e8a4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9e8a4.dir/build.make CMakeFiles/cmTC_9e8a4.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9e8a4.dir/src.cxx.o
+/usr/bin/c++ -DDEPRECATED_COPY_FLAG  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wno-maybe-uninitialized -Wno-init-list-lifetime -Wno-redundant-move    -Wdeprecated-copy -o CMakeFiles/cmTC_9e8a4.dir/src.cxx.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9e8a4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e8a4.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wno-maybe-uninitialized -Wno-init-list-lifetime -Wno-redundant-move  CMakeFiles/cmTC_9e8a4.dir/src.cxx.o -o cmTC_9e8a4 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_CLASS_MEMACCESS_FLAG succeeded with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4f095/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4f095.dir/build.make CMakeFiles/cmTC_4f095.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4f095.dir/src.cxx.o
+/usr/bin/c++ -DCXX_SUPPORTS_CLASS_MEMACCESS_FLAG  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wno-maybe-uninitialized -Wno-init-list-lifetime -Wno-redundant-move -Wno-deprecated-copy    -Wclass-memaccess -o CMakeFiles/cmTC_4f095.dir/src.cxx.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4f095
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f095.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wno-maybe-uninitialized -Wno-init-list-lifetime -Wno-redundant-move -Wno-deprecated-copy  CMakeFiles/cmTC_4f095.dir/src.cxx.o -o cmTC_4f095 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_NOEXCEPT_TYPE_FLAG succeeded with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7bdd4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7bdd4.dir/build.make CMakeFiles/cmTC_7bdd4.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7bdd4.dir/src.cxx.o
+/usr/bin/c++ -DCXX_SUPPORTS_NOEXCEPT_TYPE_FLAG  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wno-maybe-uninitialized -Wno-init-list-lifetime -Wno-redundant-move -Wno-deprecated-copy -Wno-class-memaccess    -Wnoexcept-type -o CMakeFiles/cmTC_7bdd4.dir/src.cxx.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7bdd4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7bdd4.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wno-maybe-uninitialized -Wno-init-list-lifetime -Wno-redundant-move -Wno-deprecated-copy -Wno-class-memaccess  CMakeFiles/cmTC_7bdd4.dir/src.cxx.o -o cmTC_7bdd4 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG succeeded with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_54ad2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_54ad2.dir/build.make CMakeFiles/cmTC_54ad2.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_54ad2.dir/src.cxx.o
+/usr/bin/c++ -DCXX_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wno-maybe-uninitialized -Wno-init-list-lifetime -Wno-redundant-move -Wno-deprecated-copy -Wno-class-memaccess -Wno-noexcept-type    -Werror -Wdelete-non-virtual-dtor -o CMakeFiles/cmTC_54ad2.dir/src.cxx.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_54ad2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54ad2.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wno-maybe-uninitialized -Wno-init-list-lifetime -Wno-redundant-move -Wno-deprecated-copy -Wno-class-memaccess -Wno-noexcept-type  CMakeFiles/cmTC_54ad2.dir/src.cxx.o -o cmTC_54ad2 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_COMPUTED_GOTO succeeded with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_35ffa/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_35ffa.dir/build.make CMakeFiles/cmTC_35ffa.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_35ffa.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_COMPUTED_GOTO  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wno-maybe-uninitialized -Wno-init-list-lifetime -Wno-redundant-move -Wno-deprecated-copy -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor  -o CMakeFiles/cmTC_35ffa.dir/src.cxx.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_35ffa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35ffa.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wno-maybe-uninitialized -Wno-init-list-lifetime -Wno-redundant-move -Wno-deprecated-copy -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor  CMakeFiles/cmTC_35ffa.dir/src.cxx.o -o cmTC_35ffa 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { void *p = &&label; goto *p; label: return 0; }
+Performing C++ SOURCE FILE Test HAVE_GC_SECTIONS succeeded with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1a48d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1a48d.dir/build.make CMakeFiles/cmTC_1a48d.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1a48d.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_GC_SECTIONS  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wno-maybe-uninitialized -Wno-init-list-lifetime -Wno-redundant-move -Wno-deprecated-copy -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor  -o CMakeFiles/cmTC_1a48d.dir/src.cxx.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1a48d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a48d.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wno-maybe-uninitialized -Wno-init-list-lifetime -Wno-redundant-move -Wno-deprecated-copy -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor   -Wl,--gc-sections  CMakeFiles/cmTC_1a48d.dir/src.cxx.o -o cmTC_1a48d 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_FUNCTION_SECTIONS succeeded with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_aebba/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_aebba.dir/build.make CMakeFiles/cmTC_aebba.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aebba.dir/src.c.o
+/usr/bin/cc -DC_SUPPORTS_FUNCTION_SECTIONS  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers    -Werror -ffunction-sections -o CMakeFiles/cmTC_aebba.dir/src.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_aebba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aebba.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers  CMakeFiles/cmTC_aebba.dir/src.c.o -o cmTC_aebba 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_FUNCTION_SECTIONS succeeded with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b3fce/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b3fce.dir/build.make CMakeFiles/cmTC_b3fce.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b3fce.dir/src.cxx.o
+/usr/bin/c++ -DCXX_SUPPORTS_FUNCTION_SECTIONS  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wno-maybe-uninitialized -Wno-init-list-lifetime -Wno-redundant-move -Wno-deprecated-copy -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor    -Werror -ffunction-sections -o CMakeFiles/cmTC_b3fce.dir/src.cxx.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b3fce
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3fce.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wno-maybe-uninitialized -Wno-init-list-lifetime -Wno-redundant-move -Wno-deprecated-copy -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor  CMakeFiles/cmTC_b3fce.dir/src.cxx.o -o cmTC_b3fce 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_DATA_SECTIONS succeeded with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8e516/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8e516.dir/build.make CMakeFiles/cmTC_8e516.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8e516.dir/src.c.o
+/usr/bin/cc -DC_SUPPORTS_DATA_SECTIONS  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections    -Werror -fdata-sections -o CMakeFiles/cmTC_8e516.dir/src.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_8e516
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e516.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections  CMakeFiles/cmTC_8e516.dir/src.c.o -o cmTC_8e516 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_DATA_SECTIONS succeeded with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ab55a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ab55a.dir/build.make CMakeFiles/cmTC_ab55a.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ab55a.dir/src.cxx.o
+/usr/bin/c++ -DCXX_SUPPORTS_DATA_SECTIONS  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wno-maybe-uninitialized -Wno-init-list-lifetime -Wno-redundant-move -Wno-deprecated-copy -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -ffunction-sections    -Werror -fdata-sections -o CMakeFiles/cmTC_ab55a.dir/src.cxx.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ab55a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab55a.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wno-maybe-uninitialized -Wno-init-list-lifetime -Wno-redundant-move -Wno-deprecated-copy -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -ffunction-sections  CMakeFiles/cmTC_ab55a.dir/src.cxx.o -o cmTC_ab55a 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_59e8c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_59e8c.dir/build.make CMakeFiles/cmTC_59e8c.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_59e8c.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_59e8c.dir/CheckIncludeFile.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_59e8c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59e8c.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  CMakeFiles/cmTC_59e8c.dir/CheckIncludeFile.c.o -o cmTC_59e8c  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file errno.h exists passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a2553/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a2553.dir/build.make CMakeFiles/cmTC_a2553.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a2553.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_a2553.dir/CheckIncludeFile.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a2553
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2553.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  CMakeFiles/cmTC_a2553.dir/CheckIncludeFile.c.o -o cmTC_a2553  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_12866/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_12866.dir/build.make CMakeFiles/cmTC_12866.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_12866.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_12866.dir/CheckIncludeFile.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_12866
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12866.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  CMakeFiles/cmTC_12866.dir/CheckIncludeFile.c.o -o cmTC_12866  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file link.h exists passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fba07/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fba07.dir/build.make CMakeFiles/cmTC_fba07.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fba07.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_fba07.dir/CheckIncludeFile.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_fba07
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fba07.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  CMakeFiles/cmTC_fba07.dir/CheckIncludeFile.c.o -o cmTC_fba07  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bc65c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bc65c.dir/build.make CMakeFiles/cmTC_bc65c.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bc65c.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_bc65c.dir/CheckIncludeFile.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_bc65c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc65c.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  CMakeFiles/cmTC_bc65c.dir/CheckIncludeFile.c.o -o cmTC_bc65c  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ea235/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ea235.dir/build.make CMakeFiles/cmTC_ea235.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ea235.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_ea235.dir/CheckIncludeFile.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ea235
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea235.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  CMakeFiles/cmTC_ea235.dir/CheckIncludeFile.c.o -o cmTC_ea235  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9cba2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9cba2.dir/build.make CMakeFiles/cmTC_9cba2.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9cba2.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_9cba2.dir/CheckIncludeFile.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_9cba2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9cba2.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  CMakeFiles/cmTC_9cba2.dir/CheckIncludeFile.c.o -o cmTC_9cba2  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/ioctl.h exists passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0e0ae/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0e0ae.dir/build.make CMakeFiles/cmTC_0e0ae.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0e0ae.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_0e0ae.dir/CheckIncludeFile.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0e0ae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e0ae.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  CMakeFiles/cmTC_0e0ae.dir/CheckIncludeFile.c.o -o cmTC_0e0ae  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/mman.h exists passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f3849/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f3849.dir/build.make CMakeFiles/cmTC_f3849.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f3849.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_f3849.dir/CheckIncludeFile.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f3849
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3849.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  CMakeFiles/cmTC_f3849.dir/CheckIncludeFile.c.o -o cmTC_f3849  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/param.h exists passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ecfbc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ecfbc.dir/build.make CMakeFiles/cmTC_ecfbc.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ecfbc.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_ecfbc.dir/CheckIncludeFile.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ecfbc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ecfbc.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  CMakeFiles/cmTC_ecfbc.dir/CheckIncludeFile.c.o -o cmTC_ecfbc  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/resource.h exists passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d1f05/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d1f05.dir/build.make CMakeFiles/cmTC_d1f05.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d1f05.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_d1f05.dir/CheckIncludeFile.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d1f05
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1f05.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  CMakeFiles/cmTC_d1f05.dir/CheckIncludeFile.c.o -o cmTC_d1f05  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_36dd6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_36dd6.dir/build.make CMakeFiles/cmTC_36dd6.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_36dd6.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_36dd6.dir/CheckIncludeFile.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_36dd6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36dd6.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  CMakeFiles/cmTC_36dd6.dir/CheckIncludeFile.c.o -o cmTC_36dd6  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cfd9b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cfd9b.dir/build.make CMakeFiles/cmTC_cfd9b.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cfd9b.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_cfd9b.dir/CheckIncludeFile.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_cfd9b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cfd9b.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  CMakeFiles/cmTC_cfd9b.dir/CheckIncludeFile.c.o -o cmTC_cfd9b  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_18a4e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_18a4e.dir/build.make CMakeFiles/cmTC_18a4e.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_18a4e.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_18a4e.dir/CheckIncludeFile.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_18a4e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18a4e.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  CMakeFiles/cmTC_18a4e.dir/CheckIncludeFile.c.o -o cmTC_18a4e  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file termios.h exists passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_92c27/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_92c27.dir/build.make CMakeFiles/cmTC_92c27.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_92c27.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_92c27.dir/CheckIncludeFile.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_92c27
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92c27.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  CMakeFiles/cmTC_92c27.dir/CheckIncludeFile.c.o -o cmTC_92c27  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9b529/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9b529.dir/build.make CMakeFiles/cmTC_9b529.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9b529.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_9b529.dir/CheckIncludeFile.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_9b529
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b529.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  CMakeFiles/cmTC_9b529.dir/CheckIncludeFile.c.o -o cmTC_9b529  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file valgrind/valgrind.h exists passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1f432/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1f432.dir/build.make CMakeFiles/cmTC_1f432.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1f432.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_1f432.dir/CheckIncludeFile.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_1f432
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f432.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  CMakeFiles/cmTC_1f432.dir/CheckIncludeFile.c.o -o cmTC_1f432  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file zlib.h exists passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e89ba/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e89ba.dir/build.make CMakeFiles/cmTC_e89ba.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e89ba.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_e89ba.dir/CheckIncludeFile.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e89ba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e89ba.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  CMakeFiles/cmTC_e89ba.dir/CheckIncludeFile.c.o -o cmTC_e89ba  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file fenv.h exists passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ada2b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ada2b.dir/build.make CMakeFiles/cmTC_ada2b.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ada2b.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_ada2b.dir/CheckIncludeFile.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ada2b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ada2b.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  CMakeFiles/cmTC_ada2b.dir/CheckIncludeFile.c.o -o cmTC_ada2b  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the FE_ALL_EXCEPT exist passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6f6d2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6f6d2.dir/build.make CMakeFiles/cmTC_6f6d2.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6f6d2.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_6f6d2.dir/CheckSymbolExists.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_6f6d2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f6d2.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  CMakeFiles/cmTC_6f6d2.dir/CheckSymbolExists.c.o -o cmTC_6f6d2  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+File /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fenv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FE_ALL_EXCEPT
+  return ((int*)(&FE_ALL_EXCEPT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the FE_INEXACT exist passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3e9eb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3e9eb.dir/build.make CMakeFiles/cmTC_3e9eb.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3e9eb.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_3e9eb.dir/CheckSymbolExists.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_3e9eb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e9eb.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  CMakeFiles/cmTC_3e9eb.dir/CheckSymbolExists.c.o -o cmTC_3e9eb  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+File /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fenv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FE_INEXACT
+  return ((int*)(&FE_INEXACT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file linux/magic.h exists passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b31f5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b31f5.dir/build.make CMakeFiles/cmTC_b31f5.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b31f5.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_b31f5.dir/CheckIncludeFile.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b31f5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b31f5.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  CMakeFiles/cmTC_b31f5.dir/CheckIncludeFile.c.o -o cmTC_b31f5  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1c804/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1c804.dir/build.make CMakeFiles/cmTC_1c804.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1c804.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_1c804.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1c804
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c804.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_1c804.dir/CheckFunctionExists.c.o -o cmTC_1c804  -lpthread -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_getspecific exists in the pthread passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_68ecc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_68ecc.dir/build.make CMakeFiles/cmTC_68ecc.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_68ecc.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections -DCHECK_FUNCTION_EXISTS=pthread_getspecific -o CMakeFiles/cmTC_68ecc.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_68ecc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68ecc.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections -DCHECK_FUNCTION_EXISTS=pthread_getspecific CMakeFiles/cmTC_68ecc.dir/CheckFunctionExists.c.o -o cmTC_68ecc  -lpthread -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_rwlock_init exists in the pthread passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e188a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e188a.dir/build.make CMakeFiles/cmTC_e188a.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e188a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections -DCHECK_FUNCTION_EXISTS=pthread_rwlock_init -o CMakeFiles/cmTC_e188a.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e188a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e188a.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections -DCHECK_FUNCTION_EXISTS=pthread_rwlock_init CMakeFiles/cmTC_e188a.dir/CheckFunctionExists.c.o -o cmTC_e188a  -lpthread -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_mutex_lock exists in the pthread passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f9447/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f9447.dir/build.make CMakeFiles/cmTC_f9447.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f9447.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections -DCHECK_FUNCTION_EXISTS=pthread_mutex_lock -o CMakeFiles/cmTC_f9447.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f9447
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9447.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections -DCHECK_FUNCTION_EXISTS=pthread_mutex_lock CMakeFiles/cmTC_f9447.dir/CheckFunctionExists.c.o -o cmTC_f9447  -lpthread -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function dlopen exists in the dl passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e0f0b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e0f0b.dir/build.make CMakeFiles/cmTC_e0f0b.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e0f0b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections -DCHECK_FUNCTION_EXISTS=dlopen -o CMakeFiles/cmTC_e0f0b.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e0f0b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0f0b.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections -DCHECK_FUNCTION_EXISTS=dlopen CMakeFiles/cmTC_e0f0b.dir/CheckFunctionExists.c.o -o cmTC_e0f0b  -ldl -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function clock_gettime exists in the rt passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e0768/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e0768.dir/build.make CMakeFiles/cmTC_e0768.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e0768.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections -DCHECK_FUNCTION_EXISTS=clock_gettime -o CMakeFiles/cmTC_e0768.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e0768
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0768.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections -DCHECK_FUNCTION_EXISTS=clock_gettime CMakeFiles/cmTC_e0768.dir/CheckFunctionExists.c.o -o cmTC_e0768  -lrt -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dc505/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dc505.dir/build.make CMakeFiles/cmTC_dc505.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dc505.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_dc505.dir/CheckIncludeFile.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_dc505
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc505.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  CMakeFiles/cmTC_dc505.dir/CheckIncludeFile.c.o -o cmTC_dc505  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9a34c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9a34c.dir/build.make CMakeFiles/cmTC_9a34c.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9a34c.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_9a34c.dir/src.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_9a34c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a34c.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  CMakeFiles/cmTC_9a34c.dir/src.c.o -o cmTC_9a34c  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the backtrace exist passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4ba13/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4ba13.dir/build.make CMakeFiles/cmTC_4ba13.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4ba13.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_4ba13.dir/CheckSymbolExists.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_4ba13
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ba13.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  CMakeFiles/cmTC_4ba13.dir/CheckSymbolExists.c.o -o cmTC_4ba13 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+File /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <execinfo.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef backtrace
+  return ((int*)(&backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _Unwind_Backtrace exist passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3a2e5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3a2e5.dir/build.make CMakeFiles/cmTC_3a2e5.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3a2e5.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_3a2e5.dir/CheckSymbolExists.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_3a2e5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a2e5.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  CMakeFiles/cmTC_3a2e5.dir/CheckSymbolExists.c.o -o cmTC_3a2e5  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+File /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unwind.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _Unwind_Backtrace
+  return ((int*)(&_Unwind_Backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getpagesize exist passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5839f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5839f.dir/build.make CMakeFiles/cmTC_5839f.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5839f.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_5839f.dir/CheckSymbolExists.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_5839f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5839f.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  CMakeFiles/cmTC_5839f.dir/CheckSymbolExists.c.o -o cmTC_5839f  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+File /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getpagesize
+  return ((int*)(&getpagesize))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sysconf exist passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1b078/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1b078.dir/build.make CMakeFiles/cmTC_1b078.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1b078.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_1b078.dir/CheckSymbolExists.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1b078
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b078.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  CMakeFiles/cmTC_1b078.dir/CheckSymbolExists.c.o -o cmTC_1b078  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+File /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysconf
+  return ((int*)(&sysconf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getrusage exist passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7528a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7528a.dir/build.make CMakeFiles/cmTC_7528a.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7528a.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_7528a.dir/CheckSymbolExists.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_7528a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7528a.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  CMakeFiles/cmTC_7528a.dir/CheckSymbolExists.c.o -o cmTC_7528a  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+File /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrusage
+  return ((int*)(&getrusage))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setrlimit exist passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b292c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b292c.dir/build.make CMakeFiles/cmTC_b292c.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b292c.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_b292c.dir/CheckSymbolExists.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_b292c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b292c.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  CMakeFiles/cmTC_b292c.dir/CheckSymbolExists.c.o -o cmTC_b292c  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+File /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setrlimit
+  return ((int*)(&setrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the isatty exist passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e4145/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e4145.dir/build.make CMakeFiles/cmTC_e4145.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e4145.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_e4145.dir/CheckSymbolExists.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e4145
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4145.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  CMakeFiles/cmTC_e4145.dir/CheckSymbolExists.c.o -o cmTC_e4145  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+File /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isatty
+  return ((int*)(&isatty))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the futimens exist passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ad18e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ad18e.dir/build.make CMakeFiles/cmTC_ad18e.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ad18e.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_ad18e.dir/CheckSymbolExists.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ad18e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad18e.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  CMakeFiles/cmTC_ad18e.dir/CheckSymbolExists.c.o -o cmTC_ad18e  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+File /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/stat.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef futimens
+  return ((int*)(&futimens))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the futimes exist passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a4290/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a4290.dir/build.make CMakeFiles/cmTC_a4290.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a4290.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_a4290.dir/CheckSymbolExists.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a4290
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4290.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  CMakeFiles/cmTC_a4290.dir/CheckSymbolExists.c.o -o cmTC_a4290  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+File /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef futimes
+  return ((int*)(&futimes))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the posix_fallocate exist passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4d214/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4d214.dir/build.make CMakeFiles/cmTC_4d214.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4d214.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_4d214.dir/CheckSymbolExists.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_4d214
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d214.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  CMakeFiles/cmTC_4d214.dir/CheckSymbolExists.c.o -o cmTC_4d214  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+File /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_fallocate
+  return ((int*)(&posix_fallocate))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sigaltstack exist passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_df6f9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_df6f9.dir/build.make CMakeFiles/cmTC_df6f9.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_df6f9.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_df6f9.dir/CheckSymbolExists.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_df6f9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df6f9.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  CMakeFiles/cmTC_df6f9.dir/CheckSymbolExists.c.o -o cmTC_df6f9  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+File /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <signal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sigaltstack
+  return ((int*)(&sigaltstack))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the lseek64 exist passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_aba6a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_aba6a.dir/build.make CMakeFiles/cmTC_aba6a.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aba6a.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_LARGEFILE64_SOURCE  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_aba6a.dir/CheckSymbolExists.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_aba6a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aba6a.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  CMakeFiles/cmTC_aba6a.dir/CheckSymbolExists.c.o -o cmTC_aba6a  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+File /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef lseek64
+  return ((int*)(&lseek64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the mallinfo exist passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c6614/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c6614.dir/build.make CMakeFiles/cmTC_c6614.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c6614.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_c6614.dir/CheckSymbolExists.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:3: warning: ‘mallinfo’ is deprecated [-Wdeprecated-declarations]
+    8 |   return ((int*)(&mallinfo))[argc];
+      |   ^~~~~~
+In file included from /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:
+/usr/include/malloc.h:114:24: note: declared here
+  114 | extern struct mallinfo mallinfo (void) __THROW __MALLOC_DEPRECATED;
+      |                        ^~~~~~~~
+Linking C executable cmTC_c6614
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6614.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  CMakeFiles/cmTC_c6614.dir/CheckSymbolExists.c.o -o cmTC_c6614  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+File /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mallinfo
+  return ((int*)(&mallinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getrlimit exist passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_28c25/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_28c25.dir/build.make CMakeFiles/cmTC_28c25.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_28c25.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_28c25.dir/CheckSymbolExists.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_28c25
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28c25.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  CMakeFiles/cmTC_28c25.dir/CheckSymbolExists.c.o -o cmTC_28c25  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+File /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrlimit
+  return ((int*)(&getrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the posix_spawn exist passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_58d3f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_58d3f.dir/build.make CMakeFiles/cmTC_58d3f.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_58d3f.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_58d3f.dir/CheckSymbolExists.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_58d3f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58d3f.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  CMakeFiles/cmTC_58d3f.dir/CheckSymbolExists.c.o -o cmTC_58d3f  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+File /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <spawn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_spawn
+  return ((int*)(&posix_spawn))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the pread exist passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5236c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5236c.dir/build.make CMakeFiles/cmTC_5236c.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5236c.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_5236c.dir/CheckSymbolExists.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_5236c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5236c.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  CMakeFiles/cmTC_5236c.dir/CheckSymbolExists.c.o -o cmTC_5236c  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+File /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pread
+  return ((int*)(&pread))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the realpath exist passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_58bde/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_58bde.dir/build.make CMakeFiles/cmTC_58bde.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_58bde.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_58bde.dir/CheckSymbolExists.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_58bde
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58bde.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  CMakeFiles/cmTC_58bde.dir/CheckSymbolExists.c.o -o cmTC_58bde  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+File /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef realpath
+  return ((int*)(&realpath))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sbrk exist passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ddfdb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ddfdb.dir/build.make CMakeFiles/cmTC_ddfdb.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ddfdb.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_ddfdb.dir/CheckSymbolExists.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ddfdb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ddfdb.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  CMakeFiles/cmTC_ddfdb.dir/CheckSymbolExists.c.o -o cmTC_ddfdb  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+File /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sbrk
+  return ((int*)(&sbrk))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strerror exist passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_334e2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_334e2.dir/build.make CMakeFiles/cmTC_334e2.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_334e2.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_334e2.dir/CheckSymbolExists.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_334e2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_334e2.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  CMakeFiles/cmTC_334e2.dir/CheckSymbolExists.c.o -o cmTC_334e2  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+File /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror
+  return ((int*)(&strerror))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strerror_r exist passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_55a6c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_55a6c.dir/build.make CMakeFiles/cmTC_55a6c.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_55a6c.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_55a6c.dir/CheckSymbolExists.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_55a6c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55a6c.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  CMakeFiles/cmTC_55a6c.dir/CheckSymbolExists.c.o -o cmTC_55a6c  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+File /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror_r
+  return ((int*)(&strerror_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setenv exist passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_96b34/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_96b34.dir/build.make CMakeFiles/cmTC_96b34.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_96b34.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_96b34.dir/CheckSymbolExists.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_96b34
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96b34.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  CMakeFiles/cmTC_96b34.dir/CheckSymbolExists.c.o -o cmTC_96b34  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+File /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setenv
+  return ((int*)(&setenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the dlopen exist passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a0372/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a0372.dir/build.make CMakeFiles/cmTC_a0372.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a0372.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_a0372.dir/CheckSymbolExists.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a0372
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0372.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  CMakeFiles/cmTC_a0372.dir/CheckSymbolExists.c.o -o cmTC_a0372  -lm -ldl 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+File /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <dlfcn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dlopen
+  return ((int*)(&dlopen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the __GLIBC__ exist passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1b7f6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1b7f6.dir/build.make CMakeFiles/cmTC_1b7f6.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1b7f6.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_1b7f6.dir/CheckSymbolExists.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1b7f6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b7f6.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  CMakeFiles/cmTC_1b7f6.dir/CheckSymbolExists.c.o -o cmTC_1b7f6  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+File /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __GLIBC__
+  return ((int*)(&__GLIBC__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sched_getaffinity exist passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f9816/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f9816.dir/build.make CMakeFiles/cmTC_f9816.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f9816.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_f9816.dir/CheckSymbolExists.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f9816
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9816.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  CMakeFiles/cmTC_f9816.dir/CheckSymbolExists.c.o -o cmTC_f9816  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+File /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sched.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sched_getaffinity
+  return ((int*)(&sched_getaffinity))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CPU_COUNT exist passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_53c12/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_53c12.dir/build.make CMakeFiles/cmTC_53c12.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_53c12.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_53c12.dir/CheckSymbolExists.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_53c12
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53c12.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  CMakeFiles/cmTC_53c12.dir/CheckSymbolExists.c.o -o cmTC_53c12  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+File /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sched.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CPU_COUNT
+  return ((int*)(&CPU_COUNT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the pthread_getname_np exist passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7a409/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7a409.dir/build.make CMakeFiles/cmTC_7a409.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7a409.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_7a409.dir/CheckSymbolExists.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_7a409
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a409.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  CMakeFiles/cmTC_7a409.dir/CheckSymbolExists.c.o -o cmTC_7a409  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+File /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_getname_np
+  return ((int*)(&pthread_getname_np))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the pthread_setname_np exist passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_97889/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_97889.dir/build.make CMakeFiles/cmTC_97889.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_97889.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_97889.dir/CheckSymbolExists.c.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_97889
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97889.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections  CMakeFiles/cmTC_97889.dir/CheckSymbolExists.c.o -o cmTC_97889  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+File /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_setname_np
+  return ((int*)(&pthread_setname_np))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test HAVE_CXX_ATOMICS_WITHOUT_LIB succeeded with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3ef1d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3ef1d.dir/build.make CMakeFiles/cmTC_3ef1d.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3ef1d.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_ATOMICS_WITHOUT_LIB -D_GNU_SOURCE  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wno-maybe-uninitialized -Wno-init-list-lifetime -Wno-redundant-move -Wno-deprecated-copy -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -ffunction-sections -fdata-sections -fvisibility=hidden  -std=c++11 -std=c++17 -o CMakeFiles/cmTC_3ef1d.dir/src.cxx.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3ef1d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ef1d.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wno-maybe-uninitialized -Wno-init-list-lifetime -Wno-redundant-move -Wno-deprecated-copy -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -ffunction-sections -fdata-sections -fvisibility=hidden  -std=c++11 CMakeFiles/cmTC_3ef1d.dir/src.cxx.o -o cmTC_3ef1d  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <atomic>
+std::atomic<int> x;
+int main() {
+  return x;
+}
+
+Performing C++ SOURCE FILE Test HAVE_CXX_ATOMICS64_WITHOUT_LIB succeeded with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6a442/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6a442.dir/build.make CMakeFiles/cmTC_6a442.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6a442.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_ATOMICS64_WITHOUT_LIB -D_GNU_SOURCE  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wno-maybe-uninitialized -Wno-init-list-lifetime -Wno-redundant-move -Wno-deprecated-copy -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -ffunction-sections -fdata-sections -fvisibility=hidden -std=c++11 -std=c++17 -o CMakeFiles/cmTC_6a442.dir/src.cxx.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/src.cxx
+/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/src.cxx:6:12: warning: unused variable ‘i’ [-Wunused-variable]
+    6 |   uint64_t i = x.load(std::memory_order_relaxed);
+      |            ^
+Linking CXX executable cmTC_6a442
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a442.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wno-maybe-uninitialized -Wno-init-list-lifetime -Wno-redundant-move -Wno-deprecated-copy -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -ffunction-sections -fdata-sections -fvisibility=hidden -std=c++11 CMakeFiles/cmTC_6a442.dir/src.cxx.o -o cmTC_6a442  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <atomic>
+#include <cstdint>
+std::atomic<uint64_t> x (0);
+int main() {
+  uint64_t i = x.load(std::memory_order_relaxed);
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test LLVM_HAS_ATOMICS succeeded with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1df5c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1df5c.dir/build.make CMakeFiles/cmTC_1df5c.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1df5c.dir/src.cxx.o
+/usr/bin/c++ -DLLVM_HAS_ATOMICS -D_GNU_SOURCE  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wno-maybe-uninitialized -Wno-init-list-lifetime -Wno-redundant-move -Wno-deprecated-copy -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -ffunction-sections -fdata-sections -fvisibility=hidden  -std=c++17 -o CMakeFiles/cmTC_1df5c.dir/src.cxx.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1df5c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1df5c.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wno-maybe-uninitialized -Wno-init-list-lifetime -Wno-redundant-move -Wno-deprecated-copy -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -ffunction-sections -fdata-sections -fvisibility=hidden  CMakeFiles/cmTC_1df5c.dir/src.cxx.o -o cmTC_1df5c  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#ifdef _MSC_VER
+#include <windows.h>
+#endif
+int main() {
+#ifdef _MSC_VER
+        volatile LONG val = 1;
+        MemoryBarrier();
+        InterlockedCompareExchange(&val, 0, 1);
+        InterlockedIncrement(&val);
+        InterlockedDecrement(&val);
+#else
+        volatile unsigned long val = 1;
+        __sync_synchronize();
+        __sync_val_compare_and_swap(&val, 1, 0);
+        __sync_add_and_fetch(&val, 1);
+        __sync_sub_and_fetch(&val, 1);
+#endif
+        return 0;
+      }
+
+Performing C++ SOURCE FILE Test SUPPORTS_NO_PIE_FLAG succeeded with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b0602/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b0602.dir/build.make CMakeFiles/cmTC_b0602.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b0602.dir/src.cxx.o
+/usr/bin/c++ -DSUPPORTS_NO_PIE_FLAG  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wno-maybe-uninitialized -Wno-init-list-lifetime -Wno-redundant-move -Wno-deprecated-copy -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -ffunction-sections -fdata-sections -fvisibility=hidden    -fno-pie -std=c++17 -o CMakeFiles/cmTC_b0602.dir/src.cxx.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b0602
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0602.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wno-maybe-uninitialized -Wno-init-list-lifetime -Wno-redundant-move -Wno-deprecated-copy -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -ffunction-sections -fdata-sections -fvisibility=hidden  CMakeFiles/cmTC_b0602.dir/src.cxx.o -o cmTC_b0602  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test SUPPORTS_VARIADIC_MACROS_FLAG succeeded with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e4470/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e4470.dir/build.make CMakeFiles/cmTC_e4470.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e4470.dir/src.cxx.o
+/usr/bin/c++ -DSUPPORTS_VARIADIC_MACROS_FLAG  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wno-maybe-uninitialized -Wno-init-list-lifetime -Wno-redundant-move -Wno-deprecated-copy -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -ffunction-sections -fdata-sections -fvisibility=hidden    -Wvariadic-macros -std=c++17 -o CMakeFiles/cmTC_e4470.dir/src.cxx.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e4470
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4470.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wno-maybe-uninitialized -Wno-init-list-lifetime -Wno-redundant-move -Wno-deprecated-copy -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -ffunction-sections -fdata-sections -fvisibility=hidden   -fno-pie  CMakeFiles/cmTC_e4470.dir/src.cxx.o -o cmTC_e4470  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_MAYBE_UNINITIALIZED succeeded with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a32c7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a32c7.dir/build.make CMakeFiles/cmTC_a32c7.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a32c7.dir/src.cxx.o
+/usr/bin/c++ -DHAS_MAYBE_UNINITIALIZED  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wno-maybe-uninitialized -Wno-init-list-lifetime -Wno-redundant-move -Wno-deprecated-copy -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -ffunction-sections -fdata-sections -fvisibility=hidden    -Wmaybe-uninitialized -std=c++17 -o CMakeFiles/cmTC_a32c7.dir/src.cxx.o -c /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a32c7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a32c7.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wno-maybe-uninitialized -Wno-init-list-lifetime -Wno-redundant-move -Wno-deprecated-copy -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -ffunction-sections -fdata-sections -fvisibility=hidden   -fno-pie  CMakeFiles/cmTC_a32c7.dir/src.cxx.o -o cmTC_a32c7  -lm 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Determining if the function readline exists passed with the following output:
+Change Dir: /home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f4c96/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f4c96.dir/build.make CMakeFiles/cmTC_f4c96.dir/build
+gmake[1]: Entering directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f4c96.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections -DCHECK_FUNCTION_EXISTS=readline -o CMakeFiles/cmTC_f4c96.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f4c96
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4c96.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -ffunction-sections -fdata-sections -DCHECK_FUNCTION_EXISTS=readline CMakeFiles/cmTC_f4c96.dir/CheckFunctionExists.c.o -o cmTC_f4c96  /usr/lib/x86_64-linux-gnu/libreadline.so /usr/lib/x86_64-linux-gnu/libtinfo.so 
+gmake[1]: Leaving directory '/home/csec/JavaScript_Taint_Analyzer/CustomHermes_temp/CMakeFiles/CMakeTmp'
+
+
+

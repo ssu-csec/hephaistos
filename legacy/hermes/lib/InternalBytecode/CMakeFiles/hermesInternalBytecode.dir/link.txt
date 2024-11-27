@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhermesInternalBytecode.a CMakeFiles/hermesInternalBytecode.dir/InternalBytecode.cpp.o
+/usr/bin/ranlib libhermesInternalBytecode.a

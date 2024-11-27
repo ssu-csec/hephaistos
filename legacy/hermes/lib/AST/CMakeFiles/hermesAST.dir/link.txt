@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhermesAST.a CMakeFiles/hermesAST.dir/ASTBuilder.cpp.o CMakeFiles/hermesAST.dir/ESTree.cpp.o CMakeFiles/hermesAST.dir/ESTreeJSONDumper.cpp.o CMakeFiles/hermesAST.dir/SemValidate.cpp.o CMakeFiles/hermesAST.dir/SemanticValidator.cpp.o CMakeFiles/hermesAST.dir/CommonJS.cpp.o
+/usr/bin/ranlib libhermesAST.a

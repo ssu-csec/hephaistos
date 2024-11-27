@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSegmentTestCompile.a CMakeFiles/SegmentTestCompile.dir/SegmentTestCompile.cpp.o
+/usr/bin/ranlib libSegmentTestCompile.a

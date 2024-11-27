@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtimerStats.a CMakeFiles/timerStats.dir/TimerStats.cpp.o
+/usr/bin/ranlib libtimerStats.a

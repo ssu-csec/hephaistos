@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhermesFrontEndDefs.a CMakeFiles/hermesFrontEndDefs.dir/Builtins.cpp.o
+/usr/bin/ranlib libhermesFrontEndDefs.a

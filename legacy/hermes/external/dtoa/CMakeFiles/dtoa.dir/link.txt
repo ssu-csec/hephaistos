@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdtoa.a CMakeFiles/dtoa.dir/dtoa.c.o CMakeFiles/dtoa.dir/g_fmt.c.o CMakeFiles/dtoa.dir/locks.cpp.o
+/usr/bin/ranlib libdtoa.a

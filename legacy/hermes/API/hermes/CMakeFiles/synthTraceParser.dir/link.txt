@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsynthTraceParser.a CMakeFiles/synthTraceParser.dir/SynthTraceParser.cpp.o
+/usr/bin/ranlib libsynthTraceParser.a

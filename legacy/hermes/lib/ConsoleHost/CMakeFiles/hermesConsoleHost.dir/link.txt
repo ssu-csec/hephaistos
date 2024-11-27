@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhermesConsoleHost.a CMakeFiles/hermesConsoleHost.dir/ConsoleHost.cpp.o CMakeFiles/hermesConsoleHost.dir/MemorySizeParser.cpp.o CMakeFiles/hermesConsoleHost.dir/RandomSeedParser.cpp.o
+/usr/bin/ranlib libhermesConsoleHost.a

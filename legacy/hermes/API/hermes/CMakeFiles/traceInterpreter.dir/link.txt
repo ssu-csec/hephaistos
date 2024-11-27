@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtraceInterpreter.a CMakeFiles/traceInterpreter.dir/TraceInterpreter.cpp.o
+/usr/bin/ranlib libtraceInterpreter.a

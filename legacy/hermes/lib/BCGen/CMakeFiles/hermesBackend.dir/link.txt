@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhermesBackend.a CMakeFiles/hermesBackend.dir/RegAlloc.cpp.o CMakeFiles/hermesBackend.dir/BCOpt.cpp.o CMakeFiles/hermesBackend.dir/Lowering.cpp.o CMakeFiles/hermesBackend.dir/Exceptions.cpp.o
+/usr/bin/ranlib libhermesBackend.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhermesHBCBackendLean.a CMakeFiles/hermesHBCBackendLean.dir/BytecodeDataProvider.cpp.o CMakeFiles/hermesHBCBackendLean.dir/ConsecutiveStringStorage.cpp.o CMakeFiles/hermesHBCBackendLean.dir/DebugInfo.cpp.o CMakeFiles/hermesHBCBackendLean.dir/SerializedLiteralParserBase.cpp.o CMakeFiles/hermesHBCBackendLean.dir/SimpleBytecodeBuilder.cpp.o CMakeFiles/hermesHBCBackendLean.dir/UniquingFilenameTable.cpp.o
+/usr/bin/ranlib libhermesHBCBackendLean.a

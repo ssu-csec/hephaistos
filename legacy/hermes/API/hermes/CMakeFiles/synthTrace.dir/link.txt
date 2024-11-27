@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsynthTrace.a CMakeFiles/synthTrace.dir/hermes_tracing.cpp.o CMakeFiles/synthTrace.dir/SynthTrace.cpp.o CMakeFiles/synthTrace.dir/TracingRuntime.cpp.o
+/usr/bin/ranlib libsynthTrace.a
