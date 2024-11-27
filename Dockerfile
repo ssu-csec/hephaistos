@@ -15,6 +15,7 @@ COPY node_modules /tmp/hephaistos/node_modules
 COPY Hephaistos.js /tmp/hephaistos/Hephaistos.js
 COPY package-lock.json /tmp/hephaistos/package-lock.json
 COPY package.json /tmp/hephaistos/package.json
+COPY CustomTRC /tmp/hephaistos/CustomTRC
 # COPY input_data to /tmp/input_data
 
 RUN apt-get update && \
