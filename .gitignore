@@ -1,6 +1,4 @@
 .DS_Store
-node_modules
 legacy/scripts_*
 scripts_tranco
 scripts_whotracks
-CustomTRC/results/*
