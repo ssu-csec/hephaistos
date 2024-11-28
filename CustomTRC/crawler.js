@@ -45,7 +45,7 @@ function openBrowser(log, proxyHost, executablePath) {
         ]
     };
     if (VISUAL_DEBUG) {
-        args.headless = false;
+        args.headless = true;
         args.devtools = false;
     }
     if (proxyHost) {

@@ -61,7 +61,11 @@ program
 
 async function run(inputUrls, outputPath, verbose, logPath, numberOfCrawlers, dataCollectors, reporters, forceOverwrite, filterOutFirstParty, emulateMobile, proxyHost, regionCode, antiBotDetection, chromiumVersion, maxLoadTimeMs, extraExecutionTimeMs, collectorFlags) {
     const startTime = new Date();
+    /*
+    * TODO (mino): temporarily fix the 'time' to the 'tta'
     var time = startTime.getFullYear() + ('0' + (startTime.getMonth() + 1)).slice(-2) + ('0' + startTime.getDate()).slice(-2) + ('0' + startTime.getHours()).slice(-2) + ('0' + startTime.getMinutes()).slice(-2) + ('0' + startTime.getSeconds()).slice(-2);
+    */
+    var time = "tta";
     var initPath = path.resolve(__dirname, "../", "results", time);
     var failureLog = new Array();
     makeFolder(initPath, "-1"); // 최초 폴더 생성
