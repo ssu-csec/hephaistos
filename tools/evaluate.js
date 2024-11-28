@@ -2,7 +2,12 @@ const fs = require('fs');
 const path = require('path');
 
 // 분석할 디렉토리 경로 수정
-const directoryPath = path.join(__dirname, '../CustomTRC/results/tta/');
+// const directoryPath = path.join(__dirname, '../CustomTRC/results/tta/');
+const directoryPath = process.argv[2];
+if (!directoryPath) {
+  console.error('Usage: node evaluate.js <directoryPath>');
+  process.exit(1);
+}
 const savedPath = directoryPath + 'results/';
 
 if (!fs.existsSync(savedPath)) {

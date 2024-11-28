@@ -56,8 +56,14 @@ USER csec
 
 WORKDIR /home/csec
 
-RUN cd /tmp/hephaistos/CustomTRC && npm run crawl -- -i './URL/urls.txt' -v -o ./data/ -f
-RUN cd /tmp/hephaistos/ && node Hephaistos.js ./CustomTRC/results/tta
+RUN cd /tmp/hephaistos/CustomTRC && npm run crawl -- -i './URL/easylist_test.txt' -v -o ./data/ -f
+# RUN cd /tmp/hephaistos/ && node Hephaistos.js ./CustomTRC/results/easylist_test
 
-RUN cd /tmp/hephaistos/tools/ && node ./evaulate.js
-RUN cd /tmp/hephaistos/tools/ && node ./statistic.js
+# RUN cd /tmp/hephaistos/CustomTRC && npm run crawl -- -i './URL/tranco_test.txt' -v -o ./data/ -f
+# RUN cd /tmp/hephaistos/ && node Hephaistos.js ./CustomTRC/results/tranco_test
+
+# RUN cd /tmp/hephaistos/tools/ && node ./evaulate.js
+# RUN node /tmp/hephaistos/tools/evaulate.js /tmp/hephaistos/CustomTRC/results/easylist_test
+# RUN node /tmp/hephaistos/tools/evaulate.js /tmp/hephaistos/CustomTRC/results/tranco_test
+# RUN cd /tmp/hephaistos/tools/ && node ./statistic.js
+

@@ -208,7 +208,14 @@ var eventCount = {
 
 var leakList = [];
 
-const directoryPath = path.join(__dirname, '../CustomTRC/results/tta/'); // 'your-directory'를 원하는 폴더 경로로 변경하세요.
+// const directoryPath = path.join(__dirname, '../CustomTRC/results/tta/'); // 'your-directory'를 원하는 폴더 경로로 변경하세요.
+
+if (process.argv.length < 2) {
+  console.error('Usage: node script.js <directoryPath>');
+  process.exit(1);
+}
+
+const directoryPath = process.argv[2];
 
 fs.readdirSync(directoryPath).forEach(file => {
     if (path.extname(file) === '.json') {
