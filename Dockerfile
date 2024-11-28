@@ -10,9 +10,6 @@ RUN groupadd -r csec && useradd -r -g csec -m csec && echo "csec:csec" | chpassw
 
 RUN echo "csec ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 
-RUN FILE_ID=1h7BKthoSKqrQADWuK0CxNwndKC7TyG8k && \
-    curl -L -o /tmp/CustomTRC/node_modules.zip "https://drive.google.com/uc?export=download&id=${FILE_ID}"
-
 COPY scripts/os_install_packages/ubuntu2004/installed_packages.txt /tmp/installed_packages
 COPY CustomHermes /tmp/hephaistos/CustomHermes
 COPY CustomRestringer /tmp/hephaistos/CustomRestringer
@@ -27,6 +24,11 @@ COPY tools /tmp/hephaistos/tools
 
 RUN apt-get update && \
     cat /tmp/installed_packages | xargs apt-get install -y
+
+RUN pip3 install gdown
+
+RUN FILE_ID=1h7BKthoSKqrQADWuK0CxNwndKC7TyG8k && \
+    gdown "https://drive.google.com/uc?id=${FILE_ID}" -O /tmp/hephaistos/CustomTRC/node_modules.zip
 
 RUN curl -fsSL https://deb.nodesource.com/setup_18.x | bash - && \
     apt-get update && \
@@ -46,7 +48,7 @@ RUN cd /tmp/hephaistos/CustomHermes && mkdir build && \
 
 RUN unzip /tmp/hephaistos/CustomTRC/node_modules.zip -d /tmp/hephaistos/CustomTRC/
 RUN mkdir -p /tmp/hephaistos/CustomTRC/data 
-# /tmp/hephaistos/CustomTRC/results 
+RUN mkdir -p /tmp/hephaistos/CustomTRC/results 
 
 RUN chown -R csec:csec /tmp/hephaistos
 
@@ -57,4 +59,5 @@ WORKDIR /home/csec
 RUN cd /tmp/hephaistos/CustomTRC && npm run crawl -- -i './URL/urls.txt' -v -o ./data/ -f
 RUN cd /tmp/hephaistos/ && node Hephaistos.js ./CustomTRC/results/tta
 
-RUN cd /tmp/hephaistos/tools/
+RUN cd /tmp/hephaistos/tools/ && node ./evaulate.js
+RUN cd /tmp/hephaistos/tools/ && node ./statistic.js

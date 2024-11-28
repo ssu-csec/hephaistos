@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 // 분석할 디렉토리 경로 수정
-const directoryPath = path.join(__dirname, '../legacy/scripts_old/');
+const directoryPath = path.join(__dirname, '../CustomTRC/results/tta/');
 const savedPath = directoryPath + 'results/';
 
 if (!fs.existsSync(savedPath)) {

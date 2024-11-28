@@ -208,7 +208,7 @@ var eventCount = {
 
 var leakList = [];
 
-const directoryPath = path.join(__dirname, '../scripts_evaluation/tranco_mergedScripts/10/'); // 'your-directory'를 원하는 폴더 경로로 변경하세요.
+const directoryPath = path.join(__dirname, '../CustomTRC/results/tta/'); // 'your-directory'를 원하는 폴더 경로로 변경하세요.
 
 fs.readdirSync(directoryPath).forEach(file => {
     if (path.extname(file) === '.json') {
