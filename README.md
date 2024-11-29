@@ -58,7 +58,7 @@ cd ./hephaistos/scripts/ && ./run.sh
 
 - To generate statistics from the evaluation results:
     ```bash
-    cd /tmp/hephaistos/tools && node statistic.js /tmp/hephaistos/CustomTRC/results/easylist_test
+    cd /tmp/hephaistos/tools && node statistic.js /tmp/hephaistos/CustomTRC/results/easylist_test/results
     # or
-    cd /tmp/hephaistos/tools && node statistic.js /tmp/hephaistos/CustomTRC/results/tranco_test
+    cd /tmp/hephaistos/tools && node statistic.js /tmp/hephaistos/CustomTRC/results/tranco_test/results
     ```
