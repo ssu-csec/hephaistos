@@ -20,7 +20,6 @@ COPY Hephaistos.js /tmp/hephaistos/Hephaistos.js
 COPY package-lock.json /tmp/hephaistos/package-lock.json
 COPY package.json /tmp/hephaistos/package.json
 COPY tools /tmp/hephaistos/tools
-# COPY input_data to /tmp/input_data
 
 RUN apt-get update && \
     cat /tmp/installed_packages | xargs apt-get install -y
@@ -56,14 +55,24 @@ USER csec
 
 WORKDIR /home/csec
 
-RUN cd /tmp/hephaistos/CustomTRC && npm run crawl -- -i './URL/easylist_test.txt' -v -o ./data/ -f
-# RUN cd /tmp/hephaistos/ && node Hephaistos.js ./CustomTRC/results/easylist_test
+# with-json version: 129rd9emyfSWaPYbuAMvpQl1VOU7fdYwz
+# no-json version: 1Hgr23HJgKi5tP099DUsHrOXpQs7C212o
+# RUN cd /tmp/hephaistos/CustomTRC && npm run crawl -- -i './URL/easylist_test.txt' -v -o ./data/ -f
+RUN FILE_ID=1Hgr23HJgKi5tP099DUsHrOXpQs7C212o && \
+    gdown "https://drive.google.com/uc?id=${FILE_ID}" -O /tmp/hephaistos/CustomTRC/results/easylist_test.zip
+RUN unzip /tmp/hephaistos/CustomTRC/results/easylist_test.zip -d /tmp/hephaistos/CustomTRC/results/
+RUN cd /tmp/hephaistos/ && node Hephaistos.js ./CustomTRC/results/easylist_test
 
+# with-json version: 1vzi19Vtfs9PRnsDlh3l5uukkumcAYNRB
+# no-json version: 1wMsnx7HSKzz4j6tFsWZcipmZvCX0lKIq
 # RUN cd /tmp/hephaistos/CustomTRC && npm run crawl -- -i './URL/tranco_test.txt' -v -o ./data/ -f
-# RUN cd /tmp/hephaistos/ && node Hephaistos.js ./CustomTRC/results/tranco_test
+RUN FILE_ID=1wMsnx7HSKzz4j6tFsWZcipmZvCX0lKIq && \
+    gdown "https://drive.google.com/uc?id=${FILE_ID}" -O /tmp/hephaistos/CustomTRC/results/tranco_test.zip
+RUN unzip /tmp/hephaistos/CustomTRC/results/tranco_test.zip -d /tmp/hephaistos/CustomTRC/results/
+RUN cd /tmp/hephaistos/ && node Hephaistos.js ./CustomTRC/results/tranco_test
 
-# RUN cd /tmp/hephaistos/tools/ && node ./evaulate.js
-# RUN node /tmp/hephaistos/tools/evaulate.js /tmp/hephaistos/CustomTRC/results/easylist_test
-# RUN node /tmp/hephaistos/tools/evaulate.js /tmp/hephaistos/CustomTRC/results/tranco_test
-# RUN cd /tmp/hephaistos/tools/ && node ./statistic.js
+RUN cd /tmp/hephaistos/tools && node evaulate.js /tmp/hephaistos/CustomTRC/results/easylist_test
+RUN cd /tmp/hephaistos/tools && node evaulate.js /tmp/hephaistos/CustomTRC/results/tranco_test
 
+RUN cd /tmp/hephaistos/tools && node statistic.js /tmp/hephaistos/CustomTRC/results/easylist_test/results/
+RUN cd /tmp/hephaistos/tools && node statistic.js /tmp/hephaistos/CustomTRC/results/tranco_test/results/
