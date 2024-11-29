@@ -23,6 +23,7 @@ If some scripts are not working, use the **run.sh**.
 ```bash
 cd ./hephaistos/scripts/ && ./run.sh
 ```
+<!--
 - If the crawler is not working in your container:
     ```bash
     cd /tmp/hephaistos/CustomTRC
@@ -39,7 +40,7 @@ cd ./hephaistos/scripts/ && ./run.sh
     # type vi command: :1,xd :wq
     # then re-run the following command: npm run crawl -- -i '<URL path>' -v -o <Data path> -f
     ```
-
+-->
 - If the JavaScript Analyzer is not working in your container:
     ```bash
     cd /tmp/hephaistos
