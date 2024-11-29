@@ -217,11 +217,28 @@ if (process.argv.length < 2) {
 
 const directoryPath = process.argv[2];
 
+// Determine the filename based on the provided directory path
+let outputFileName = 'output.json'; // default value
+if (directoryPath.includes('easylist')) {
+    outputFileName = 'easylist.json';
+} else if (directoryPath.includes('tranco')) {
+    outputFileName = 'tranco.json';
+}
+
+
 fs.readdirSync(directoryPath).forEach(file => {
     if (path.extname(file) === '.json') {
       const filePath = path.join(directoryPath, file);
       const fileContents = fs.readFileSync(filePath, 'utf8');
-      const jsonContent = JSON.parse(fileContents);
+      let jsonContent;
+
+      try {
+        jsonContent = JSON.parse(fileContents);
+      } catch (error) {
+        console.error(`Error parsing JSON from file: ${filePath}`);
+        console.error(error.message);
+        return; // 다음 파일로 계속 진행
+      }
       var tfRatio = 0;
       fileCnt++;
       
@@ -284,11 +301,11 @@ fs.readdirSync(directoryPath).forEach(file => {
   }
 
 // JSON 객체를 문자열로 변환한 후 파일로 저장합니다.
-fs.writeFile("./tranco_10.json", JSON.stringify(Result, null, 2), 'utf8', function (err) {
+fs.writeFile(outputFileName, JSON.stringify(Result, null, 2), 'utf8', function (err) {
     if (err) {
       console.log('An error occured while writing JSON Object to File.');
       return console.log(err);
     }
   
-    console.log('JSON file has been saved.');
+    console.log(`JSON file has been saved as ${outputFileName}.`);
   });

@@ -3,15 +3,15 @@ const path = require('path');
 
 // 분석할 디렉토리 경로 수정
 // const directoryPath = path.join(__dirname, '../CustomTRC/results/tta/');
-const directoryPath = process.argv[2];
+const directoryPath = path.resolve(__dirname, process.argv[2]);
 if (!directoryPath) {
   console.error('Usage: node evaluate.js <directoryPath>');
   process.exit(1);
 }
-const savedPath = directoryPath + 'results/';
+const savedPath = directoryPath + '/results/';
 
 if (!fs.existsSync(savedPath)) {
-  fs.mkdirSync(savedPath);
+  fs.mkdirSync(savedPath, { recursive: true });
 }
 
 var fileCount = 0;
@@ -207,19 +207,31 @@ function findAndExecuteScripts(folderPath) {
   const url = path.basename(folderPath);
   for (const file of files) {
     const filePath = path.join(folderPath, file);
+    console.log(`FilePath: ${filePath}`);
     const stat = fs.statSync(filePath);
 
     if (stat.isDirectory()) {
       // 하위 폴더에 대한 재귀 호출
+      console.log(`Recursive Path: ${filePath}`);
       findAndExecuteScripts(filePath);
       isAnalyzing = true;
-    } else if (stat.isFile() && path.basename(file) === 'wholePage.js' && files.includes('wholePage.json')) {
-        var beforeJSPath = folderPath + 'wholePage.js';
-        var beforeJSONPath = folderPath + 'wholePage.json';
-        var afterJSPath = savedPath + url + '.js';
-        var afterJSONPath = savedPath + url + '.json';
-        fs.copyFileSync(beforeJSPath, afterJSPath);
-        fs.copyFileSync(beforeJSONPath, afterJSONPath);
+    } // else if (stat.isFile() && path.basename(file) === 'webpage.js_out.js' && files.includes('webpage.js_out.js.json'))
+    else if (stat.isFile() && path.basename(file) === 'wholePage.js' && files.includes('wholePage.js.json')) {
+        // var beforeJSPath = folderPath + 'wholePage.js';
+        // var beforeJSONPath = folderPath + 'wholePage.json';
+        // var afterJSPath = savedPath + url + '.js';
+        // var afterJSONPath = savedPath + url + '.json';
+        console.log(`Copying files from: ${folderPath}`);
+        var beforeJSPath = path.join(folderPath, 'wholePage.js');
+        var beforeJSONPath = path.join(folderPath, 'wholePage.js.json');
+        var afterJSPath = path.join(savedPath, `${url}.js`);
+        var afterJSONPath = path.join(savedPath, `${url}.json`);
+        try {
+          fs.copyFileSync(beforeJSPath, afterJSPath);
+          fs.copyFileSync(beforeJSONPath, afterJSONPath);
+        } catch (err) {
+          console.error(`Failed to copy files from ${folderPath}:`, err);
+        }
     }
   }
 }
