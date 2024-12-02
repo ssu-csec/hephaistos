@@ -1,4 +1,4 @@
-From ubuntu:20.04
+From ubuntu:22.04
 
 ARG DEBIAN_FRONTEND=noninteractive
 
@@ -44,6 +44,7 @@ RUN cd /tmp/hephaistos/CustomHermes && mkdir build && \
 
 # restringer likely not needed for the build
 # RUN cd /tmp/hephaistos/CustomRestringer && npm install
+RUN cd /tmp/hephaistos/CustomRestringer && npm rebuild
 
 RUN unzip /tmp/hephaistos/CustomTRC/node_modules.zip -d /tmp/hephaistos/CustomTRC/
 RUN mkdir -p /tmp/hephaistos/CustomTRC/data 
