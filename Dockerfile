@@ -71,8 +71,8 @@ RUN FILE_ID=1wMsnx7HSKzz4j6tFsWZcipmZvCX0lKIq && \
 RUN unzip /tmp/hephaistos/CustomTRC/results/tranco_test.zip -d /tmp/hephaistos/CustomTRC/results/
 RUN cd /tmp/hephaistos/ && node Hephaistos.js ./CustomTRC/results/tranco_test
 
-RUN cd /tmp/hephaistos/tools && node evaulate.js /tmp/hephaistos/CustomTRC/results/easylist_test
-RUN cd /tmp/hephaistos/tools && node evaulate.js /tmp/hephaistos/CustomTRC/results/tranco_test
+RUN cd /tmp/hephaistos/tools && node evaluate.js /tmp/hephaistos/CustomTRC/results/easylist_test
+RUN cd /tmp/hephaistos/tools && node evaluate.js /tmp/hephaistos/CustomTRC/results/tranco_test
 
 RUN cd /tmp/hephaistos/tools && node statistic.js /tmp/hephaistos/CustomTRC/results/easylist_test/results/
 RUN cd /tmp/hephaistos/tools && node statistic.js /tmp/hephaistos/CustomTRC/results/tranco_test/results/

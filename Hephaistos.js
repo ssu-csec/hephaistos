@@ -26,17 +26,17 @@ function executeScriptFile(filePath) {
       console.log("웹페이지 각 스크립트 파일을 분석합니다.")
       try {
         execSync(`npx babel ${filePath} --out-file ${filePath}`);
-        console.log("[1/2] 트랜스파일링이 완료되었습니다.");
+        console.log("[1/3] 트랜스파일링이 완료되었습니다.");
       } catch (e) {
-        console.log("[1/2] 트랜스파일링 중 오류가 발생하였습니다.")
+        console.log("[1/3] 트랜스파일링 중 오류가 발생하였습니다.")
       }
       var content = fs.readFileSync(filePath, 'utf8');
       content = content.replace('"use strict";', '');
       content = content.replace("'use strict';", '');
       fs.writeFileSync(filePath, content); // 트랜스파일링 한 스크립트 덮어쓰기
-      console.log("[2/2] 데이터 흐름 분석을 진행합니다.");
+      console.log("[2/3] 데이터 흐름 분석을 진행합니다.");
       execSync(`${projectPath} -O -dump-ir ${filePath}`); // 분석기 실행
-      console.log("[2/2] 데이터 흐름 분석을 완료하였습니다.");
+      console.log("[2/3] 데이터 흐름 분석을 완료하였습니다.");
       const jsonFilePath = filePath + '.json'; // 실행 완료 시 생성된 json 파일 참조
       if(fs.existsSync(jsonFilePath)) {
         var jsonFile = fs.readFileSync(jsonFilePath); // json 파일 읽기
@@ -54,6 +54,10 @@ function executeScriptFile(filePath) {
     } else {
       console.log("경로가 잘못되었습니다.")
     }
+    console.log("[3/3] 데이터 분석 결과 분류를 진행합니다.");
+    // 분류기 코드 추가
+    console.log("[3/3] 데이터 분석 결과 분류를 완료하였습니다.");
+
   } catch (error) {
     console.log('오류로 인해 분석을 실패하였습니다.');
     console.log(error);
