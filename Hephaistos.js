@@ -18,7 +18,7 @@ function getCurrentTime() {
 function logTime(message, startTime) {
   const elapsed = (getCurrentTime() - startTime) / 1000; // 초로 변환
   console.log(`${message} - ${elapsed.toFixed(2)} seconds`);
-  return elapsed.toFixed(2);
+  return parseFloat(elapsed.toFixed(2));
 }
 
 let overallTimeLogs = [];
@@ -30,6 +30,8 @@ function executeScriptFile(filePath) {
     console.log("Running Hephaistos Analyzer...");
 
     let timeLog = {};
+    let restringerTime = 0;
+    let transpilingTime = 0;
 
     if (fs.existsSync(filePath)) {
       console.log("웹페이지 각 스크립트 파일을 분석합니다.");
@@ -38,13 +40,12 @@ function executeScriptFile(filePath) {
       const restringerStart = getCurrentTime();
       try {
         console.log("[1/3] Restringer Running...");
-        const restringer = execSync(`node ${restringerPath} ${filePath} -m 3 -o ${filePath}`, { encoding: 'utf-8', timeout: 300000, killSignal: 'SIGTERM' });
-        console.log(restringer);
+        execSync(`node ${restringerPath} ${filePath} -m 3 -o ${filePath}`, { encoding: 'utf-8', timeout: 300000, killSignal: 'SIGTERM' });
         console.log("[1/3] Restringer Done!");
       } catch (e) {
         console.log("[1/3] Restringer 실행 중 오류가 발생하였습니다.");
       }
-      timeLog['Restringer Execution Time'] = logTime("Restringer 실행 시간", restringerStart);
+      restringerTime = logTime("Restringer 실행 시간", restringerStart);
 
       // [Step 2] Babel 트랜스파일링
       const transpilingStart = getCurrentTime();
@@ -54,7 +55,12 @@ function executeScriptFile(filePath) {
       } catch (e) {
         console.log("[2/3] 트랜스파일링 중 오류가 발생하였습니다.");
       }
-      timeLog['Babel Transpiling Execution Time'] = logTime("Babel 트랜스파일링 실행 시간", transpilingStart);
+      transpilingTime = logTime("Babel 트랜스파일링 실행 시간", transpilingStart);
+
+      // Restringer와 Babel 트랜스파일링 시간 합산
+      const combinedTime = restringerTime + transpilingTime;
+      console.log(`Combined Restringer and Babel Transpiling Time - ${combinedTime.toFixed(2)} seconds`);
+      timeLog['Combined Restringer and Babel Transpiling Time'] = combinedTime.toFixed(2);
 
       // 'use strict' 제거 및 파일 덮어쓰기
       var content = fs.readFileSync(filePath, 'utf8');
@@ -73,24 +79,12 @@ function executeScriptFile(filePath) {
       }
       timeLog['Data Flow Analysis Execution Time'] = logTime("데이터 흐름 분석 실행 시간", analysisStart);
 
-      // [Step 4] JSON 파일 처리
-      const jsonFilePath = filePath + '.json'; // 실행 완료 시 생성된 json 파일 참조
-      if (fs.existsSync(jsonFilePath)) {
-        var jsonFile = fs.readFileSync(jsonFilePath);
-        var json = JSON.parse(jsonFile);
-        var url = path.dirname(jsonFilePath).split(path.sep);
-        url = url[url.length - 1];
-        url = url.split("_")[0];
-        if (json.LeakList.length != 0) json.LeakList.push({ "thisURL": url });
-        var newData = JSON.stringify(json, null, 2);
-        fs.writeFileSync(jsonFilePath, newData, 'utf8');
-        console.log(jsonFilePath + ' :: 분석 결과 JSON 파일을 성공적으로 생성하였습니다.');
-      } else {
-        console.log('분석 결과 JSON 파일이 생성되지 않았습니다.');
-      }
+      // 전체 실행 시간 기록
+      const overallExecutionTime = combinedTime + parseFloat(timeLog['Data Flow Analysis Execution Time']);
+      console.log(`Overall Execution Time - ${overallExecutionTime.toFixed(2)} seconds`);
+      timeLog['Overall Execution Time'] = overallExecutionTime.toFixed(2);
 
-      timeLog['Overall Execution Time'] = logTime("전체 실행 시간", overallStart);
-
+      // 전체 로그 저장
       overallTimeLogs.push({
         "Script": filePath,
         "TimeLog": timeLog
@@ -104,8 +98,6 @@ function executeScriptFile(filePath) {
   }
 }
 
-var isAnalyzing = false;
-
 // 주어진 폴더와 하위 폴더에서 스크립트 파일 찾기
 function findAndExecuteScripts(folderPath) {
   const files = fs.readdirSync(folderPath);
@@ -118,67 +110,31 @@ function findAndExecuteScripts(folderPath) {
       // 하위 폴더에 대한 재귀 호출
       findAndExecuteScripts(filePath);
     } else if (stat.isFile() && path.extname(file) === '.js') {
-      isAnalyzing = true;
       executeScriptFile(filePath);
-    }
-  }
-
-  if (isAnalyzing) { // Script Merging & Analyzing
-    console.log("분석한 스크립트에 대한 병합을 진행합니다.")
-    isAnalyzing = false;
-    const files = fs.readdirSync(folderPath);
-    const url = path.basename(folderPath);
-    var script = ' ';
-    for (const file of files) { // 폴더 내 스크립트 파일에 대한 파일 병합 진행
-      const filePath = path.join(folderPath, file);
-      const stat = fs.statSync(filePath);
-      if (stat.isFile() && path.extname(file) === '.js') {
-        if (files.includes(file + ".json")) { // 분석을 완료한 스크립트에 대해서만 병합
-          var data = fs.readFileSync(filePath, {encoding:'utf8'});
-          script += data;
-        }
-      }
-    }
-    var mergedScriptPath = folderPath + "/wholePage.js"; // 병합된 스크립트 파일 생성
-    if(script != null) {
-        fs.writeFileSync(mergedScriptPath, script, {encoding:'utf8'});
-        console.log("병합이 완료되었습니다.\n데이터 흐름 분석을 진행합니다.")
-        const jsonFilePath = mergedScriptPath + '.json';
-        try {
-          if (!fs.existsSync(jsonFilePath)) {
-            execSync(`${projectPath} -O -dump-ir ${mergedScriptPath}`);
-            if(!fs.existsSync(jsonFilePath)) {
-              var jsonFile = fs.readFileSync(jsonFilePath)
-              var json = JSON.parse(jsonFile);
-              var merged_url = path.basename(jsonFilePath, '.json');
-              merged_url = merged_url.split("_")[0];
-              if(json.LeakList.length != 0)
-                json.LeakList.push({"thisURL" : url});
-              var newData = JSON.stringify(json, null, 2);
-              fs.writeFileSync(jsonFilePath, newData, 'utf8');
-              console.log(jsonFilePath + ' :: 분석 결과 JSON 파일을 성공적으로 생성하였습니다.')
-            } else {
-              console.log('분석 결과 JSON 파일이 생성되지 않았습니다.');
-            }
-          } else {
-            console.log("이미 JSON 파일이 존재합니다.")
-          }
-        } catch (e) {
-          console.log("오류로 인해 분석을 실패하였습니다.")
-        }
     }
   }
 
   // 전체 실행 시간 로그 저장
   if (overallTimeLogs.length > 0) {
+    let combinedTimes = overallTimeLogs.map(log => parseFloat(log.TimeLog['Combined Restringer and Babel Transpiling Time']));
+    let analysisTimes = overallTimeLogs.map(log => parseFloat(log.TimeLog['Data Flow Analysis Execution Time']));
+
     let summary = {
       "Scripts": overallTimeLogs,
       "Summary": {
-        "MinExecutionTime": Math.min(...overallTimeLogs.map(log => parseFloat(log.TimeLog['Overall Execution Time']))).toFixed(2),
-        "MaxExecutionTime": Math.max(...overallTimeLogs.map(log => parseFloat(log.TimeLog['Overall Execution Time']))).toFixed(2),
-        "AverageExecutionTime": (overallTimeLogs.reduce((acc, log) => acc + parseFloat(log.TimeLog['Overall Execution Time']), 0) / overallTimeLogs.length).toFixed(2)
+        "Combined Restringer and Babel Transpiling Time": {
+          "MinExecutionTime": Math.min(...combinedTimes).toFixed(2),
+          "MaxExecutionTime": Math.max(...combinedTimes).toFixed(2),
+          "AverageExecutionTime": (combinedTimes.reduce((acc, time) => acc + time, 0) / combinedTimes.length).toFixed(2)
+        },
+        "Data Flow Analysis Execution Time": {
+          "MinExecutionTime": Math.min(...analysisTimes).toFixed(2),
+          "MaxExecutionTime": Math.max(...analysisTimes).toFixed(2),
+          "AverageExecutionTime": (analysisTimes.reduce((acc, time) => acc + time, 0) / analysisTimes.length).toFixed(2)
+        }
       }
     };
+    
     const summaryFilePath = baseScriptPath + '/timelog.json';
     fs.writeFileSync(summaryFilePath, JSON.stringify(summary, null, 2), 'utf8');
     console.log(summaryFilePath + ' :: 전체 실행 시간 요약 JSON 파일을 성공적으로 생성하였습니다.');
